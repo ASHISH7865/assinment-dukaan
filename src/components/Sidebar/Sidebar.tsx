@@ -8,17 +8,17 @@ import AvailableCredit from "./AvailableCredit";
 
 const sidebarNavData = [
   { name: "Home", imagePath:"Home.svg", path: "/dashboard" },
-  { name: "Orders", imagePath:"Order.svg", path: "/dashboard/orders" },
-  { name: "Products", imagePath:"Product.svg", path: "/dashboard/products" },
-  { name: "Delivery", imagePath:"Delivery.svg", path: "/dashboard/delivery" },
-  { name: "Marketing", imagePath:"Marketing.svg", path: "/dashboard/marketing" },
-  { name: "Analytics", imagePath:"Analytics.svg", path: "/dashboard/analytics" },
+  { name: "Orders", imagePath:"Order.svg", path: "/dashboard/#orders" },
+  { name: "Products", imagePath:"Product.svg", path: "/dashboard/#products" },
+  { name: "Delivery", imagePath:"Delivery.svg", path: "/dashboard/#delivery" },
+  { name: "Marketing", imagePath:"Marketing.svg", path: "/dashboard/#marketing" },
+  { name: "Analytics", imagePath:"Analytics.svg", path: "/dashboard/#analytics" },
   { name: "Payments", imagePath:"Payment.svg", path: "/dashboard/payments" },
-  { name: "Tools", imagePath:"Tools.svg", path: "/dashboard/tools" },
-  { name: "Discounts", imagePath:"Discounts.svg", path: "/dashboard/discounts" },
-  { name: "Audience", imagePath:"Audience.svg", path: "/dashboard/audience" },
-  { name: "Appearance", imagePath:"Appearance.svg", path: "/dashboard/appearance" },
-  { name: "Plugins", imagePath:"Plugins.svg", path: "/dashboard/plugins" },
+  { name: "Tools", imagePath:"Tools.svg", path: "/dashboard/#tools" },
+  { name: "Discounts", imagePath:"Discounts.svg", path: "/dashboard/#discounts" },
+  { name: "Audience", imagePath:"Audience.svg", path: "/dashboard/#audience" },
+  { name: "Appearance", imagePath:"Appearance.svg", path: "/dashboard/#appearance" },
+  { name: "Plugins", imagePath:"Plugins.svg", path: "/dashboard/#plugins" },
 ];
 
 const sidebarData = {

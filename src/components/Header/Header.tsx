@@ -8,7 +8,6 @@ import Image from "next/image";
 const Header = () => {
   const pathname = usePathname();
   const currentPathWithoutprefix = pathname.split("/")[2];
-  console.log(pathname.split("/"));
   return (
     <div className="px-8 py-3">
       <div className="flex gap-4 justify-between ">
