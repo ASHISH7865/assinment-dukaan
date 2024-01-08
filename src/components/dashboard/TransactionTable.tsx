@@ -57,6 +57,7 @@ const TransactionTable = () => {
           {tableheader.map((header, index) => (
             <div key={index} className={`flex-1 flex items-center gap-1  w-full text-[14px] font-medium text-[#4d4d4d] ${headerStyleCondition(header)} `}>
               {header}
+              {header === "Order Date" && <Image src="/svg/TriangleIcon.svg" className="cursor-pointer" width={8} height={8} alt="info" />}
               {header === "Transaction fees" && <Image src="/svg/Info.svg" className="cursor-pointer" width={14} height={14} alt="info" />}
             </div>
           ))}
